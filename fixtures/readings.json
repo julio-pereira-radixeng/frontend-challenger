@@ -1,0 +1,38 @@
+[
+  {
+    "id": "reading-001",
+    "sensorName": "Pressure A-01",
+    "site": "North Sea",
+    "value": 71.4,
+    "unit": "bar",
+    "recordedAt": "2026-09-23T12:00:00Z",
+    "status": "normal"
+  },
+  {
+    "id": "reading-002",
+    "sensorName": "Temperature B-07",
+    "site": "North Sea",
+    "value": 86.2,
+    "unit": "°C",
+    "recordedAt": "2026-09-23T11:59:00Z",
+    "status": "warning"
+  },
+  {
+    "id": "reading-003",
+    "sensorName": "Flow C-12",
+    "site": "Campos Basin",
+    "value": 12.8,
+    "unit": "m³/h",
+    "recordedAt": "2026-09-23T11:58:00Z",
+    "status": "critical"
+  },
+  {
+    "id": "reading-004",
+    "sensorName": "Pressure D-02",
+    "site": "Campos Basin",
+    "value": 68.9,
+    "unit": "bar",
+    "recordedAt": "2026-09-23T11:57:00Z",
+    "status": "normal"
+  }
+]
