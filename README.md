@@ -1,6 +1,23 @@
 # Frontend Challenger
 
-Desafio prático reutilizável para a segunda rodada de entrevistas frontend.
+Desafio prático reutilizável para a segunda rodada de entrevistas frontend. Este repositório também contém uma aplicação React/TypeScript inicializada para ser usada diretamente pelo candidato durante o live coding.
+
+## Rodar a aplicação
+
+```bash
+npm install
+npm run dev
+```
+
+O candidato deve trabalhar principalmente em `src/components/SensorDashboard.tsx`.
+
+### Estrutura inicial
+
+- `src/components/SensorDashboard.tsx`: tela inicial deliberadamente incompleta;
+- `src/api/readings.ts`: mock de `GET /api/sensors/readings`, com filtros, paginação, latência artificial, cancelamento e erro configurável;
+- `src/types.ts`: tipos do domínio e contrato da consulta;
+- `fixtures/readings.json`: dados usados pelo mock;
+- `src/styles.css`: estilos básicos e foco visível, sem componentes prontos de tabela ou formulário.
 
 ## Objetivo da entrevista
 
