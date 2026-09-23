@@ -55,3 +55,7 @@ docs/                   Technical documentation
 ```
 
 The application is intentionally small and has no external backend dependency.
+
+## License
+
+This repository is licensed under the [Radix Engenharia Restricted-Use License](LICENSE).
